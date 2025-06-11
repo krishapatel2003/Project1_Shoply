@@ -1,0 +1,377 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+QLD+Hand:wght@400..700&display=swap');
+
+/* boilerplate code */
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: white;
+    overflow-x: hidden;
+}
+
+/* nav part */
+.nav {
+    height: 90px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 50px;
+    border-bottom: 1px solid gray;
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 0;
+}
+.nav-h1 {
+    color: sienna;
+    font-size: 20px;
+}
+.options a {
+    text-decoration: none;
+    color: white;
+    margin-left: 40px;
+    font-size: 20px;
+}
+.options i {
+    margin-left: 40px;
+    font-size: 20px;
+}
+
+
+/* hrrosection */
+.herosection {
+    height: 500px;
+    width: 100%;
+    display: flex;
+    margin-top: 90px;
+}
+.hero-left {
+    height: 450px;
+    width: 50%;
+    padding-left: 50px;
+    padding-top: 50px;
+}
+.hero-pera {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.hero-h1 {
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+.hero-h1 span {
+    color: sienna;
+}
+.hero-btn {
+    margin-top: 10px;
+}
+.hero-btn button {
+    height: 50px;
+    width: 200px;
+    background-color: sienna;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+}
+.hero-right {
+    height: 450px;
+    width: 50%;
+    padding-left: 30px;
+}
+
+/* shops part */
+.shops {
+    height: 500px;
+    width: 100%;
+}
+.shops-h1 {
+    font-size: 25px;
+    text-align: center;
+}
+.shops-h1 span {
+    color: sienna;
+}
+.shops-boxes {
+    height: 450px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px 10px;
+}
+.shops-box-1 {
+    height: 380px;
+    width: 250px;
+    background-color: white;
+    border-radius: 10px;
+}
+.img {
+    background-color: gray;
+    height: 250px;
+    width: 100%;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    background-image: url("shirt.png");
+    background-size: cover;
+    background-position: center;
+}
+.shop-box-1-h3 {
+    color: black;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+.shops-icon {
+    color: rgb(241, 221, 4);
+    font-size: 25px;
+    margin-left: 30px;
+    margin-top: 5px;
+}
+.shops-btn {
+    margin-top: 10px;
+    margin-left: 30px;
+}
+.shops-btn button {
+    height: 40px;
+    width: 150px;
+    border-radius: 5px;
+    border: none;
+    background-color: sienna;
+    color: white;
+    font-size: 20px;
+}
+
+.shops-box-2 {
+    height: 380px;
+    width: 250px;
+    background-color: white;
+    border-radius: 10px;
+}
+.img2 {
+    background-color: gray;
+    height: 250px;
+    width: 100%;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 10px;
+    background-image: url("t-shirt.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.shops-box-3 {
+    height: 380px;
+    width: 250px;
+    background-color: white;
+    border-radius: 10px;
+}
+.img3 {
+    background-color: gray;
+    height: 250px;
+    width: 100%;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 10px;
+    background-image: url("formal.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.girls-shop {
+    height: 500px;
+    width: 100%;
+}
+
+.shops-box-4 {
+    height: 380px;
+    width: 250px;
+    background-color: white;
+    border-radius: 10px;
+}
+.img4 {
+    background-color: gray;
+    height: 250px;
+    width: 100%;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 10px;
+    background-image: url("kurti.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.shops-box-5 {
+    height: 380px;
+    width: 250px;
+    background-color: white;
+    border-radius: 10px;
+}
+.img5 {
+    background-color: gray;
+    height: 250px;
+    width: 100%;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 10px;
+    background-image: url("choli.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.shops-box-6 {
+    height: 380px;
+    width: 250px;
+    background-color: white;
+    border-radius: 10px;
+}
+.img6 {
+    background-color: gray;
+    height: 250px;
+    width: 100%;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 10px;
+    background-image: url("tops.png");
+    background-size: cover;
+    background-position: center;
+}
+
+/* blogs */
+.blogs {
+    height: 400px;
+    width: 100%;
+}
+.blogs-h1 {
+    font-size: 25px;
+    text-align: center;
+}
+
+.blogs-l-and-r {
+    height: 400px;
+    width: 100%;
+    display: flex;
+}
+.blog-left {
+    height: 400px;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.blog-left-box {
+    height: 280px;
+    width: 380px;
+    border: 2px solid white;
+    border-radius: 20px;
+    display: flex;
+}
+
+
+.blog-right {
+    height: 400px;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.blog-right-box {
+    height: 280px;
+    width: 400px;
+    border: 2px solid white;
+    border-radius: 20px;
+    display: flex;
+}
+.blog-img-boy {
+    height: 260px;
+    width: 380px;
+    margin-left: 10px;
+    margin-top: 10px;
+    background-image: url("blog-boy.jpg");
+    background-size: cover;
+    border-radius: 10px;
+}
+.blog-boy-test {
+    height: 280px;
+    margin-left: 30px;
+}
+.blog-boy-test h2 {
+    margin-top: 20px;
+}
+.blog-boy-test p {
+    margin-top: 20px;
+}
+.blog-boy-test button {
+    height: 50px;
+    font-size: 20px;
+    width: 150px;
+    border: none;
+    background-color: sienna;
+    color: white;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+.blog-boy-test a {
+    text-decoration: none;
+    color: white;
+}
+
+
+.blog-img-girl {
+    height: 260px;
+    width: 380px;
+    margin-left: 10px;
+    margin-top: 10px;
+    background-image: url("girl.jpg");
+    background-size: cover;
+    border-radius: 10px;
+}
+.blog-girl-test {
+    height: 280px;
+    margin-left: 30px;
+}
+.blog-girl-test h2 {
+    margin-top: 20px;
+
+}
+.blog-girl-test p {
+    margin-top: 20px;
+}
+.blog-girl-test button {
+    height: 50px;
+    font-size: 20px;
+    width: 150px;
+    border: none;
+    background-color: sienna;
+    color: white;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+.blog-girl-test a {
+    text-decoration: none;
+    color: white;
+}
+
+/* footer */
+.footer{
+    height: 250px;
+    width: 100%;
+    border-top: 2px solid gray;
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content:space-between ;
+}
+.footer h1{
+    font-size: 150px;
+    color: sienna;
+}
+.footer .icon{
+    font-size: 60px;
+}
